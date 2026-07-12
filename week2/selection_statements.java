@@ -1,0 +1,14 @@
+package week2;
+
+public class selection_statements {
+    public static void main(String[] args) {
+        int num= 1+3;
+        if (num > 0) {
+            System.out.println(num+ " is a Positive Number.");
+        } else if (num < 0) {
+            System.out.println(num + " is a Negative Number.");
+        } else {
+            System.out.println("The number is Zero.");
+        }
+    }
+}
